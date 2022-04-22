@@ -9,9 +9,12 @@ The analysis was done so that the manager would get an understanding of staff re
 ## Summary
 There is are 72458 employees retiring with 1549 employees eligible for the proposed mentorship program. THe company will be unable to replace the retiring staff. The company will have to source employees externally if they intend to fill most positions.
 * Q1![Retiring Employees Count](https://user-images.githubusercontent.com/99148657/164766717-f680ba4c-6bfc-41fe-ab29-8ef1e26f6bf3.PNG)
+
+
           SELECT count(emp_no) as Retiring_Employees
           FROM unique_titles;
  * Q2 ![Mentorship Employees](https://user-images.githubusercontent.com/99148657/164767561-da62b9cc-e270-422e-97ce-bac9de19786c.PNG)
+ 
  
           SELECT count(emp_no) as Eligible_Replacements
           FROM mentorship_eligibility;
